@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("Fonts/Inter-VariableFont_opsz\,wght.ttf") format("ttf"),
+    url("Fonts/Inter-Italic-VariableFont_opsz\,wght.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  padding: 0;
+  position: relative;
+  font-family: "MyFont", sans-serif;
+}
+
+.logo {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+
+.logo img {
+  height: 240px;
+  width: 240px;
+  display: block;
+}
+
+.menu-link-about {
+  position: absolute;
+  top: 76px;
+  left: 190px;
+  text-decoration: none;
+  color: white;
+  font-size: 44px;
+  font-family: "MyFont", sans-serif;
+}
+
+.menu-link-about:hover {
+  text-decoration: underline;
+}
+
+.dark-gray-background {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 200px);
+  background-color: #1a1a1a;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+.menu-link-produkt {
+  position: absolute;
+  top: 76px;
+  left: 430px;
+  text-decoration: none;
+  color: white;
+  font-size: 44px;
+  font-family: "MyFont", sans-serif;
+}
+
+.menu-link-produkt:hover {
+  text-decoration: underline;
+}
